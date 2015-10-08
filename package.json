@@ -1,0 +1,28 @@
+{
+  "name": "clojurescript-compiler",
+  "version": "1.0.0",
+  "description": "Use ClojureScript to compile itself.",
+  "main": "main.js",
+  "dependencies": {
+    "source-map-support": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/settinghead/node-cljs-compiler.git"
+  },
+  "keywords": [
+    "clojurescript",
+    "node",
+    "compiler"
+  ],
+  "author": "Xiyang Chen <settinghead@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/settinghead/node-cljs-compiler/issues"
+  },
+  "homepage": "https://github.com/settinghead/node-cljs-compiler"
+}

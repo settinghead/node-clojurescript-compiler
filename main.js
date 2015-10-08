@@ -1,0 +1,1 @@
+module.exports = {compile: require('./cljs-compiler.js').compile};
