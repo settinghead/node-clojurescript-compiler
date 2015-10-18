@@ -1,6 +1,6 @@
 {
   "name": "clojurescript-compiler",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Use ClojureScript to compile itself.",
   "main": "main.js",
   "dependencies": {
