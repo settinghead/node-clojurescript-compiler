@@ -4,9 +4,9 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "1.7.149"]
+                 [org.clojure/clojurescript "1.7.145"]
                  [org.clojure/tools.reader "0.10.0-SNAPSHOT"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]]
-  :source-paths ["src/clojure" "src/browser" "src/node" "src/user"]
+  :source-paths ["src/clojure" "src/browser" "src/node" "src/user" "src/npm"]
   :plugins [[lein-npm "0.5.0"]]
   :node-dependencies [[source-map-support "0.3.1"]])
