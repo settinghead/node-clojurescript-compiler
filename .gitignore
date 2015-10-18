@@ -18,4 +18,3 @@ resources/js/goog
 resources/js/clojure
 resources/js/cljs_bootstrap
 out
-cljs-compiler.js

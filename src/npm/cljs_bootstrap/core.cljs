@@ -39,7 +39,7 @@
                 form)
               (recur))))))))
 
-(defn compile-source [s]
+(defn compile-and-spit [s]
   (let [rdr (string-push-back-reader s)
         eof (js-obj)
         env (ana/empty-env)]
@@ -57,6 +57,9 @@
                     (assoc env :ns (ana/get-namespace ana/*cljs-ns*))
                     form))))
               (recur))))))))
+
+(defn compile-source [s]
+  (with-out-str (compile-and-spit s)))
 
 (defn -main [& args]
   (let [readline (js/require "readline")
