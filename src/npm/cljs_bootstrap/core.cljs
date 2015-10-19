@@ -48,7 +48,7 @@
               r/*data-readers* tags/*cljs-data-readers*]
       (cljs/with-state st
         (loop []
-          (let [form (r/read {:eof eof} rdr)]
+          (let [form (r/read {:eof eof :read-cond :allow :features #{:cljs}} rdr)]
             (when-not (identical? eof form)
             (print
               (with-out-str
