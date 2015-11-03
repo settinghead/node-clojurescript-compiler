@@ -4,7 +4,8 @@
   "description": "Use ClojureScript to compile itself.",
   "main": "cljs-compiler.js",
   "dependencies": {
-    "source-map-support": "^0.3.1"
+    "source-map-support": "^0.3.1",
+    "node-cljs-jar-downloader": "^0.0.1",
   },
   "devDependencies": {},
   "scripts": {
